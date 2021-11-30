@@ -1,63 +1,58 @@
-.grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
-    padding: 5px;
-    height: 100%;
-  }
-  .grid-item1{
-  
-      background-color: royalblue;
-      display: grid;
-  }
-  .grid-item{
-  
-  background-color: lightgrey;
-  display: grid;
-  }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
-  }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
-      
-  }
-  li{
-      color: white;
-      
-  }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
-     
-    
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: rgb(255, 246, 121);
+    color: rgb(4, 61, 252);
+}
+
+input {
+    background-color: #00ff7b;
+    border-style: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    border-bottom: solid 5px rgb(255, 123, 0);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    margin-top: 15px;
+}
+
+.search{
+    background-color: rgb(255, 68, 0);
+    border-style: none;
+    border-radius: 15px;
+    width: 60px;
+}
+
+.app-wrap {
+    height: 30vh;
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.city {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.temp {
+    margin: 30px;
+    font-size: 50px;
+}
+
+.weather {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
